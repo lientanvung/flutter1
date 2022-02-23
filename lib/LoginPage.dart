@@ -1,9 +1,11 @@
+
 import 'package:flutter/material.dart';
 
-class Database extends StatelessWidget {
 
+class Database extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       backgroundColor: Color(0xff009966),
       appBar: AppBar(
@@ -71,5 +73,4 @@ class Database extends StatelessWidget {
       ),
     );
   }
-  
 }
